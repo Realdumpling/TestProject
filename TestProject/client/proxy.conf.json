@@ -1,0 +1,20 @@
+{
+  "/api/*": {
+    "target": "http://localhost:5000",
+    "secure": false,
+    "loglevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  },
+  "/uploads/*": {
+    "target": "http://localhost:5000",
+    "secure": false,
+    "loglevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}

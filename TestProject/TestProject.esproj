@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.271090-alpha">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="client\src\app\shared\layouts\services\" />
+    <Folder Include="client\src\app\shared\classes\" />
+    <Folder Include="routes\" />
+    <Folder Include="controllers\" />
+    <Folder Include="models\" />
+    <Folder Include="config\" />
+    <Folder Include="middleware\" />
+    <Folder Include="utils\" />
+    <Folder Include="uploads\" />
+  </ItemGroup>
+</Project>
